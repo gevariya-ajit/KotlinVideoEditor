@@ -28,9 +28,6 @@ subprojects {
         }
     }
 
-    group 'com.platforms.editor'
-    version '1.0-SNAPSHOT'
-
     repositories {
         jcenter()
         maven { url "http://kotlin.bintray.com/kotlinx" }
