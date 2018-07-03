@@ -1,0 +1,29 @@
+
+buildscript{
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.50"
+    }
+
+}
+
+apply plugin: 'kotlin-platform-jvm'
+apply plugin: 'application'
+
+repositories {
+    jcenter()
+    maven { url "http://kotlin.bintray.com/kotlinx" }
+}
+
+sourceSets {
+    main.kotlin.srcDirs += 'src/main/kotlin/'
+}
+
+dependencies {
+    expectedBy project(":common")
+    implementation project(':common')
+}
