@@ -2,6 +2,7 @@ package com.platforms.editor
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -9,6 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        val textView = findViewById<TextView>(R.id.text_view)
+        textView.text = Sample().checkPlatform()
     }
 
 }
