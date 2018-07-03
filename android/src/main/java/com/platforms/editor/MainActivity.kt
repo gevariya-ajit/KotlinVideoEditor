@@ -1,8 +1,7 @@
-package org.konan.calculator
+package com.platforms.editor
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import com.platforms.editor.R
 
 class MainActivity : AppCompatActivity() {
 
