@@ -36,11 +36,5 @@ subprojects {
         maven { url "http://kotlin.bintray.com/kotlinx" }
     }
 
-    tasks.withType(Test) {
-        testLogging {
-            showStandardStreams = true
-            events "passed", "failed"
-        }
-    }
 }
 
