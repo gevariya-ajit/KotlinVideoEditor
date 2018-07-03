@@ -1,3 +1,14 @@
+//task build {
+//    subprojects.each {
+//        dependsOn("${it.path}:build")
+//    }
+//}
+//
+//task clean {
+//    subprojects.each {
+//        dependsOn("${it.path}:clean")
+//    }
+//}
 subprojects {
     buildscript {
         ext.kotlin_version = '1.2.50'

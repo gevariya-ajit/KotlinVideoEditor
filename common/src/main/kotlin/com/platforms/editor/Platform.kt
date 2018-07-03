@@ -1,6 +1,6 @@
 package com.platforms.editor
 
-expect class Platform(
+expect open class Platform(
     url: String
 ) {
     fun get():String
