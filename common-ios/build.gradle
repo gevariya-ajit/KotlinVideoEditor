@@ -1,0 +1,28 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-native-gradle-plugin:0.7"
+    }
+}
+
+apply plugin: 'konan'
+
+konan.targets = ["iphone"]
+
+konanArtifacts {
+    framework('SharediOS', targets: ['iphone', 'iphone_sim']) {
+        enableDebug true
+        enableMultiplatform true
+
+        srcDir 'main'
+    }
+}
+
+dependencies {
+    expectedBy project(':common')
+}
+
+task test(dependsOn: run)
