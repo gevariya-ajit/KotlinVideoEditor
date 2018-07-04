@@ -10,14 +10,12 @@ buildscript {
 
 apply plugin: 'konan'
 
-konan.targets = ["iphone"]
-
 konanArtifacts {
     framework('SharediOS', targets: ['iphone', 'iphone_sim']) {
         enableDebug true
         enableMultiplatform true
 
-        srcDir 'main'
+        srcDir 'src/main'
     }
 }
 
