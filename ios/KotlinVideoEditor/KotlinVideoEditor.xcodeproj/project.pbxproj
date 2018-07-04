@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E33841B420ED5208008D36D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33841B320ED5208008D36D5 /* AppDelegate.swift */; };
+		E33841B620ED5208008D36D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33841B520ED5208008D36D5 /* ViewController.swift */; };
+		E33841B920ED5208008D36D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33841B720ED5208008D36D5 /* Main.storyboard */; };
+		E33841BB20ED520A008D36D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E33841BA20ED520A008D36D5 /* Assets.xcassets */; };
+		E33841BE20ED520A008D36D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E33841BC20ED520A008D36D5 /* LaunchScreen.storyboard */; };
+		E33841C920ED520A008D36D5 /* KotlinVideoEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33841C820ED520A008D36D5 /* KotlinVideoEditorTests.swift */; };
+		E33841D420ED520A008D36D5 /* KotlinVideoEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33841D320ED520A008D36D5 /* KotlinVideoEditorUITests.swift */; };
+		E33841F320ED66CA008D36D5 /* SharediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E33841F220ED66CA008D36D5 /* SharediOS.framework */; };
+		E33841F420ED66CA008D36D5 /* SharediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E33841F220ED66CA008D36D5 /* SharediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E33841C520ED520A008D36D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33841A820ED5208008D36D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33841AF20ED5208008D36D5;
+			remoteInfo = KotlinVideoEditor;
+		};
+		E33841D020ED520A008D36D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E33841A820ED5208008D36D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E33841AF20ED5208008D36D5;
+			remoteInfo = KotlinVideoEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E33841F520ED66CA008D36D5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E33841F420ED66CA008D36D5 /* SharediOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E33841B020ED5208008D36D5 /* KotlinVideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KotlinVideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33841B320ED5208008D36D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E33841B520ED5208008D36D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E33841B820ED5208008D36D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E33841BA20ED520A008D36D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E33841BD20ED520A008D36D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E33841BF20ED520A008D36D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33841C420ED520A008D36D5 /* KotlinVideoEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinVideoEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33841C820ED520A008D36D5 /* KotlinVideoEditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinVideoEditorTests.swift; sourceTree = "<group>"; };
+		E33841CA20ED520A008D36D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33841CF20ED520A008D36D5 /* KotlinVideoEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KotlinVideoEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E33841D320ED520A008D36D5 /* KotlinVideoEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KotlinVideoEditorUITests.swift; sourceTree = "<group>"; };
+		E33841D520ED520A008D36D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E33841F220ED66CA008D36D5 /* SharediOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharediOS.framework; path = "../../common-ios/build/konan/bin/ios_x64/SharediOS.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E33841AD20ED5208008D36D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33841F320ED66CA008D36D5 /* SharediOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33841C120ED520A008D36D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33841CC20ED520A008D36D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E33841A720ED5208008D36D5 = {
+			isa = PBXGroup;
+			children = (
+				E33841F220ED66CA008D36D5 /* SharediOS.framework */,
+				E33841B220ED5208008D36D5 /* KotlinVideoEditor */,
+				E33841C720ED520A008D36D5 /* KotlinVideoEditorTests */,
+				E33841D220ED520A008D36D5 /* KotlinVideoEditorUITests */,
+				E33841B120ED5208008D36D5 /* Products */,
+				E33841E520ED578C008D36D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E33841B120ED5208008D36D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33841B020ED5208008D36D5 /* KotlinVideoEditor.app */,
+				E33841C420ED520A008D36D5 /* KotlinVideoEditorTests.xctest */,
+				E33841CF20ED520A008D36D5 /* KotlinVideoEditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33841B220ED5208008D36D5 /* KotlinVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				E33841B320ED5208008D36D5 /* AppDelegate.swift */,
+				E33841B520ED5208008D36D5 /* ViewController.swift */,
+				E33841B720ED5208008D36D5 /* Main.storyboard */,
+				E33841BA20ED520A008D36D5 /* Assets.xcassets */,
+				E33841BC20ED520A008D36D5 /* LaunchScreen.storyboard */,
+				E33841BF20ED520A008D36D5 /* Info.plist */,
+			);
+			path = KotlinVideoEditor;
+			sourceTree = "<group>";
+		};
+		E33841C720ED520A008D36D5 /* KotlinVideoEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E33841C820ED520A008D36D5 /* KotlinVideoEditorTests.swift */,
+				E33841CA20ED520A008D36D5 /* Info.plist */,
+			);
+			path = KotlinVideoEditorTests;
+			sourceTree = "<group>";
+		};
+		E33841D220ED520A008D36D5 /* KotlinVideoEditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E33841D320ED520A008D36D5 /* KotlinVideoEditorUITests.swift */,
+				E33841D520ED520A008D36D5 /* Info.plist */,
+			);
+			path = KotlinVideoEditorUITests;
+			sourceTree = "<group>";
+		};
+		E33841E520ED578C008D36D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E33841AF20ED5208008D36D5 /* KotlinVideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33841D820ED520A008D36D5 /* Build configuration list for PBXNativeTarget "KotlinVideoEditor" */;
+			buildPhases = (
+				E33841AC20ED5208008D36D5 /* Sources */,
+				E33841AD20ED5208008D36D5 /* Frameworks */,
+				E33841AE20ED5208008D36D5 /* Resources */,
+				E33841F520ED66CA008D36D5 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KotlinVideoEditor;
+			productName = KotlinVideoEditor;
+			productReference = E33841B020ED5208008D36D5 /* KotlinVideoEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E33841C320ED520A008D36D5 /* KotlinVideoEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33841DB20ED520A008D36D5 /* Build configuration list for PBXNativeTarget "KotlinVideoEditorTests" */;
+			buildPhases = (
+				E33841C020ED520A008D36D5 /* Sources */,
+				E33841C120ED520A008D36D5 /* Frameworks */,
+				E33841C220ED520A008D36D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33841C620ED520A008D36D5 /* PBXTargetDependency */,
+			);
+			name = KotlinVideoEditorTests;
+			productName = KotlinVideoEditorTests;
+			productReference = E33841C420ED520A008D36D5 /* KotlinVideoEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E33841CE20ED520A008D36D5 /* KotlinVideoEditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E33841DE20ED520A008D36D5 /* Build configuration list for PBXNativeTarget "KotlinVideoEditorUITests" */;
+			buildPhases = (
+				E33841CB20ED520A008D36D5 /* Sources */,
+				E33841CC20ED520A008D36D5 /* Frameworks */,
+				E33841CD20ED520A008D36D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E33841D120ED520A008D36D5 /* PBXTargetDependency */,
+			);
+			name = KotlinVideoEditorUITests;
+			productName = KotlinVideoEditorUITests;
+			productReference = E33841CF20ED520A008D36D5 /* KotlinVideoEditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E33841A820ED5208008D36D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				TargetAttributes = {
+					E33841AF20ED5208008D36D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					E33841C320ED520A008D36D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E33841AF20ED5208008D36D5;
+					};
+					E33841CE20ED520A008D36D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = E33841AF20ED5208008D36D5;
+					};
+				};
+			};
+			buildConfigurationList = E33841AB20ED5208008D36D5 /* Build configuration list for PBXProject "KotlinVideoEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E33841A720ED5208008D36D5;
+			productRefGroup = E33841B120ED5208008D36D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E33841AF20ED5208008D36D5 /* KotlinVideoEditor */,
+				E33841C320ED520A008D36D5 /* KotlinVideoEditorTests */,
+				E33841CE20ED520A008D36D5 /* KotlinVideoEditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E33841AE20ED5208008D36D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33841BE20ED520A008D36D5 /* LaunchScreen.storyboard in Resources */,
+				E33841BB20ED520A008D36D5 /* Assets.xcassets in Resources */,
+				E33841B920ED5208008D36D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33841C220ED520A008D36D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33841CD20ED520A008D36D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E33841AC20ED5208008D36D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33841B620ED5208008D36D5 /* ViewController.swift in Sources */,
+				E33841B420ED5208008D36D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33841C020ED520A008D36D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33841C920ED520A008D36D5 /* KotlinVideoEditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33841CB20ED520A008D36D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33841D420ED520A008D36D5 /* KotlinVideoEditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E33841C620ED520A008D36D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33841AF20ED5208008D36D5 /* KotlinVideoEditor */;
+			targetProxy = E33841C520ED520A008D36D5 /* PBXContainerItemProxy */;
+		};
+		E33841D120ED520A008D36D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E33841AF20ED5208008D36D5 /* KotlinVideoEditor */;
+			targetProxy = E33841D020ED520A008D36D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E33841B720ED5208008D36D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33841B820ED5208008D36D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E33841BC20ED520A008D36D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E33841BD20ED520A008D36D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E33841D620ED520A008D36D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E33841D720ED520A008D36D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E33841D920ED520A008D36D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JK7E53K3;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../common-ios/build/konan/bin/ios_x64";
+				INFOPLIST_FILE = KotlinVideoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.platforms.editor.KotlinVideoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E33841DA20ED520A008D36D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N6JK7E53K3;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../../common-ios/build/konan/bin/ios_x64";
+				INFOPLIST_FILE = KotlinVideoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platforms.editor.KotlinVideoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E33841DC20ED520A008D36D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JY96AJ65B;
+				INFOPLIST_FILE = KotlinVideoEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platforms.editor.KotlinVideoEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinVideoEditor.app/KotlinVideoEditor";
+			};
+			name = Debug;
+		};
+		E33841DD20ED520A008D36D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JY96AJ65B;
+				INFOPLIST_FILE = KotlinVideoEditorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platforms.editor.KotlinVideoEditorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KotlinVideoEditor.app/KotlinVideoEditor";
+			};
+			name = Release;
+		};
+		E33841DF20ED520A008D36D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JY96AJ65B;
+				INFOPLIST_FILE = KotlinVideoEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platforms.editor.KotlinVideoEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinVideoEditor;
+			};
+			name = Debug;
+		};
+		E33841E020ED520A008D36D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JY96AJ65B;
+				INFOPLIST_FILE = KotlinVideoEditorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.platforms.editor.KotlinVideoEditorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KotlinVideoEditor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E33841AB20ED5208008D36D5 /* Build configuration list for PBXProject "KotlinVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33841D620ED520A008D36D5 /* Debug */,
+				E33841D720ED520A008D36D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33841D820ED520A008D36D5 /* Build configuration list for PBXNativeTarget "KotlinVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33841D920ED520A008D36D5 /* Debug */,
+				E33841DA20ED520A008D36D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33841DB20ED520A008D36D5 /* Build configuration list for PBXNativeTarget "KotlinVideoEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33841DC20ED520A008D36D5 /* Debug */,
+				E33841DD20ED520A008D36D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E33841DE20ED520A008D36D5 /* Build configuration list for PBXNativeTarget "KotlinVideoEditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E33841DF20ED520A008D36D5 /* Debug */,
+				E33841E020ED520A008D36D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E33841A820ED5208008D36D5 /* Project object */;
+}
